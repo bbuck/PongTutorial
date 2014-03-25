@@ -15,6 +15,11 @@ There are two ways to set up a new project using this repository, one method is
 with the `git` command line tool (which can be found [here](git-scm.com)) or by
 downloading the most the latest marked release in `.zip` or `.tar.gz` format.
 
+I highly recommend using `git` to perform this action and if you're not familair
+with the `git` utility you can learn about it at [try.github.com](https://try.github.com).
+At the very least you may find this as a useful tool for working with other
+people on projects.
+
 ### Using Git
 
 Perform a `cd` into whichever folder you wish to store your Unity Project, for
@@ -39,3 +44,15 @@ Chose the latest release from the release section found on this page and then
 unarchive whichever format you downloaded and put the unarchived folder into
 your projects folder, you might want to rename it from `PongTutorial-<release>`
 to just `PongTutorial` or any other name you wish to use.
+
+## Additional Note
+
+This is a Unity project that is using a source control management (SCM) tool (`git`).
+If you're setting up a different project to use a SCM tool then you need to
+make sure the project is configured to easily integrate with the tool. To do
+this, click Edit > Project Settings > Editor and make sure that the **Mode** under
+**Version Control** is set to _Visible Meta Files_ as well as the **Mode** for
+**Asset Serialization** set to _Force Text_. SCM tools do not handle binary files
+very well when they've been modified in two different places so using text is
+the best approach to making the project play nice with the tool to prevent any
+unecessary problems.
