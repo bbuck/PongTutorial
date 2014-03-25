@@ -1,0 +1,14 @@
+_Store
+Thumbs.db
+
+build/*
+capture/*
+Assembly-*
+Library/*
+Temp/*
+
+*.sln
+*.suo
+*.cache
+*.userprefs
+*.sublime*
